@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101722">
+  <meta name="description" content="DROIDX NEWS — independent coverage of technology, world affairs, business, and science.">
+  <title>Droidx News — Independent. Informed. Ahead.</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTMiIGZpbGw9IiMxMjFjMmIiLz48cGF0aCBkPSJNMTMgMTNoMzh2N0gyMHYxMGgyN3Y3SDIwdjEwaDMxdjdIMTN6IiBmaWxsPSIjMzVhOWY1Ii8+PHBhdGggZD0iTTMyIDEzdjQxIiBzdHJva2U9IiNmNWY4ZmMiIHN0cm9rZS13aWR0aD0iMyIvPjwvc3ZnPg==">
+  
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+:root{--bg:#f3f5f7;--paper:#fff;--ink:#101722;--muted:#687384;--line:#dce2e8;--blue:#1785ee;--blue2:#35b8f7;--dark:#101722;--dark2:#182333;--radius:4px;--max:1240px;--shadow:0 8px 26px rgba(14,25,40,.07)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:'DM Sans',Arial,sans-serif;-webkit-font-smoothing:antialiased}a{color:inherit;text-decoration:none}button,input{font:inherit}button{cursor:pointer}.container{width:min(var(--max),calc(100% - 48px));margin-inline:auto}.hidden{display:none!important}
+.topline{background:#0c121a;color:#9eacbd;font-size:10px;letter-spacing:1.4px;font-weight:700}.topline-inner{height:32px;display:flex;align-items:center;justify-content:space-between}.topline-right{display:flex;align-items:center;gap:8px}.live-dot{width:6px;height:6px;border-radius:50%;background:#31a8f8;box-shadow:0 0 0 3px #31a8f81c}
+.site-header{background:var(--paper);border-bottom:1px solid var(--line);position:relative;z-index:10}.header-main{min-height:114px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:12px}.brand-logo{width:300px;height:auto;max-width:100%;display:block}.header-tools{display:flex;gap:14px;align-items:center}.icon-button{border:1px solid var(--line);background:#fff;border-radius:50%;width:42px;height:42px;display:grid;place-items:center}.icon-button svg,.search-field-wrap svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.8}.menu-toggle{display:none;border:0;background:none;padding:10px}.menu-toggle span{display:block;width:24px;height:2px;background:#172333;margin:5px}.nav-wrap{border-top:1px solid #edf0f3}.nav-inner{display:flex;align-items:center;min-height:48px;gap:0}.nav-link{padding:17px 20px 15px;font-size:11px;letter-spacing:1px;font-weight:800;color:#4c5868;border-bottom:2px solid transparent;transition:.2s}.nav-link:first-child{padding-left:0}.nav-link:hover,.nav-link.active{color:var(--blue);border-bottom-color:var(--blue)}.nav-search{margin-left:auto;background:transparent;border:0;color:#475364;font-size:11px;font-weight:800;letter-spacing:1px}.nav-search span{font-size:22px;margin-left:8px;vertical-align:-2px}.search-panel{display:none;background:#f8fafc;border-top:1px solid var(--line);padding:19px 0}.search-panel.open{display:block}.search-field-wrap{display:flex;align-items:center;gap:12px;border:1px solid #cfd8e2;background:white;padding:12px 14px}.search-field-wrap input{border:0;outline:0;flex:1;font-size:15px;min-width:0}.search-field-wrap button{border:0;background:transparent;font-size:22px;color:#7b8796}.search-hint{margin:8px 0 0;font-size:11px;color:var(--muted)}
+.main-content{padding-top:34px;padding-bottom:64px}.section-kicker{display:flex;align-items:center;gap:12px;color:#778394;font-size:10px;letter-spacing:1.5px;font-weight:800;margin-bottom:22px}.kicker-line{height:2px;width:26px;background:var(--blue)}.kicker-date{margin-left:auto;font-weight:600;letter-spacing:.6px}.hero-grid{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(280px,.85fr);gap:24px}.hero-feature{background:var(--dark);min-height:480px;display:flex;flex-direction:column;position:relative;overflow:hidden;color:white}.hero-image{position:absolute;inset:0;display:block;overflow:hidden}.hero-image img{width:100%;height:100%;object-fit:cover;opacity:.75;transition:transform .5s}.hero-feature:hover .hero-image img{transform:scale(1.025)}.hero-image-shade{position:absolute;inset:0;background:linear-gradient(0deg,#0a1019 0%,rgba(10,16,25,.78) 24%,rgba(10,16,25,.04) 85%)}.hero-copy{position:relative;margin-top:auto;padding:38px 36px 34px;z-index:1;max-width:760px}.card-meta{font-size:10px;font-weight:800;letter-spacing:1.1px;color:#8a96a6;text-transform:uppercase}.card-meta span{padding-inline:5px;color:var(--blue)}.hero-copy .card-meta{color:#d3deea}.hero-category,.image-category{position:absolute;top:16px;left:16px;background:var(--blue);color:white;font-size:9px;font-weight:800;letter-spacing:1px;text-transform:uppercase;padding:8px 10px}.hero-copy h1{font-family:Manrope,sans-serif;font-size:clamp(25px,3.2vw,40px);line-height:1.16;letter-spacing:-1.3px;margin:13px 0 12px;font-weight:800;max-width:690px}.hero-copy p{font-size:14px;color:#c1ccd8;line-height:1.65;max-width:620px;margin:0 0 24px}.primary-link{display:inline-flex;align-items:center;gap:12px;color:#fff;font-size:10px;font-weight:800;letter-spacing:1.1px;border-bottom:1px solid #2999f3;padding-bottom:9px}.primary-link span{color:#3ba8ff;font-size:16px}.hero-side{display:flex;flex-direction:column;gap:20px}.side-story{display:grid;grid-template-columns:42% 1fr;grid-template-rows:auto 1fr;column-gap:14px;align-content:start;border-bottom:1px solid var(--line);padding-bottom:18px;min-height:0}.side-image{grid-row:1/3;display:block;height:142px;overflow:hidden;background:#dce5ed}.side-image img{width:100%;height:100%;object-fit:cover;transition:transform .3s}.side-story:hover .side-image img{transform:scale(1.05)}.side-story .card-meta{margin:3px 0 7px}.side-story h2{font-family:Manrope,sans-serif;font-size:17px;line-height:1.3;margin:0;font-weight:800;letter-spacing:-.3px}.side-story h2 a:hover,.news-card h3 a:hover{color:var(--blue)}
+.section-block{margin-top:56px}.section-heading{display:flex;justify-content:space-between;align-items:end;border-bottom:1px solid var(--line);padding-bottom:14px;margin-bottom:20px}.eyebrow{display:block;font-size:9px;letter-spacing:1.5px;font-weight:800;color:var(--blue);margin-bottom:7px}.section-heading h2,.listing-title h1{font-family:Manrope,sans-serif;font-size:28px;line-height:1.1;letter-spacing:-.8px;margin:0;font-weight:800}.text-link{font-size:10px;letter-spacing:1px;font-weight:800;color:#4c5a6a}.text-link span{color:var(--blue);margin-left:5px;font-size:15px}.news-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px}.news-card{min-width:0;background:var(--paper);border:1px solid #e2e7ec;transition:transform .2s,box-shadow .2s}.news-card:hover{transform:translateY(-3px);box-shadow:var(--shadow)}.card-image{display:block;position:relative;height:170px;overflow:hidden;background:#dce5ed}.card-image img{width:100%;height:100%;object-fit:cover;transition:transform .4s}.news-card:hover .card-image img{transform:scale(1.04)}.image-category{top:10px;left:10px;padding:6px 8px;font-size:8px}.card-text{padding:16px 16px 17px}.card-text .card-meta{font-size:9px}.card-text h3{font-family:Manrope,sans-serif;font-size:16px;line-height:1.35;letter-spacing:-.3px;margin:10px 0;font-weight:800}.card-text p{font-size:12px;color:#687687;line-height:1.65;margin:0 0 17px}.card-read{font-size:9px;letter-spacing:1px;font-weight:800;color:#506073}.card-read span{color:var(--blue);font-size:14px;margin-left:6px}.trending-block{background:#131c28;color:white;padding:28px 30px 30px;margin-top:54px}.trending-block .section-heading{border-color:#293545}.trending-block h2{color:#fff}.trending-block .eyebrow{color:#55b8ff}.trending-list{display:grid;grid-template-columns:repeat(5,1fr);gap:20px}.trend-item{display:flex;gap:12px;align-items:flex-start;border-right:1px solid #273546;padding-right:16px;min-height:104px}.trend-item:last-child{border-right:0}.trend-number{font-family:Manrope,sans-serif;color:#348ff2;font-size:25px;font-weight:800;line-height:1}.trend-content{display:flex;flex-direction:column;gap:9px}.trending-list .card-meta{font-size:8px;color:#8594a7}.trend-content strong{font-family:Manrope,sans-serif;font-size:13px;line-height:1.45;font-weight:700}.trend-arrow{margin-left:auto;color:#41a5f9}.newsletter-strip{margin-top:55px;background:#e6edf4;border-left:4px solid var(--blue);padding:26px 30px;display:flex;align-items:center;justify-content:space-between}.newsletter-strip h2{font-family:Manrope,sans-serif;font-size:23px;letter-spacing:-.5px;margin:4px 0 8px}.newsletter-strip p{color:#657384;font-size:13px;margin:0}.newsletter-mark{font-family:Manrope,sans-serif;font-size:35px;font-weight:800;color:#172435;letter-spacing:-2px}.newsletter-mark span{color:var(--blue)}
+.listing-title{align-items:center}.result-count{font-size:10px;letter-spacing:1px;font-weight:800;color:#7a8797}.listing-title h1{font-size:38px}.empty-state{padding:60px 20px;text-align:center;color:#7a8795;background:#fff;border:1px solid var(--line)}.article-top{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);padding-bottom:17px;margin-bottom:30px}.back-link{font-size:10px;letter-spacing:1px;font-weight:800;color:#566374}.article-category{background:var(--blue);color:#fff;padding:7px 10px;font-size:9px;font-weight:800;letter-spacing:1px}.article-content{max-width:860px;margin:0 auto}.article-content h1{font-family:Manrope,sans-serif;font-size:clamp(30px,5vw,52px);line-height:1.12;letter-spacing:-1.5px;margin:0 0 20px;font-weight:800}.article-summary{font-size:18px;line-height:1.6;color:#5f6c7c;margin:0 0 25px}.article-meta{display:flex;gap:16px;flex-wrap:wrap;color:#6f7b8a;font-size:10px;font-weight:800;letter-spacing:.8px;padding:18px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-bottom:24px}.article-cover{width:100%;max-height:490px;object-fit:cover;background:#dfe8ef;margin-bottom:25px}.article-body{font-family:Georgia,'Times New Roman',serif;font-size:18px;line-height:1.9;color:#273443}.article-body p{margin:0 0 1.4em}.article-footer{border-top:1px solid var(--line);margin-top:40px;padding-top:16px;display:flex;justify-content:space-between;font-family:DM Sans,sans-serif;font-size:10px;letter-spacing:1px;font-weight:800;color:#718091}.article-footer a{color:var(--blue)}.related-section{margin-top:60px}.maintenance-page{min-height:60vh;display:grid;place-items:center}.maintenance-card{background:#111a26;color:#fff;padding:clamp(28px,5vw,62px);max-width:740px;width:100%;border-top:3px solid var(--blue);text-align:center}.maintenance-symbol{font-family:Manrope,sans-serif;font-weight:900;font-size:44px;letter-spacing:-3px;margin-bottom:30px}.maintenance-symbol span{color:#3199f5}.maintenance-card h1{font-family:Manrope,sans-serif;font-size:clamp(30px,5vw,48px);letter-spacing:-1px;margin:12px 0}.maintenance-card p{color:#aebccc;line-height:1.7;max-width:500px;margin:0 auto;font-size:15px}.maintenance-line{height:1px;background:#304258;margin:35px auto;width:80px}.maintenance-footer{font-size:9px;letter-spacing:1.3px;color:#8090a4;font-weight:800}.maintenance-footer span{color:var(--blue);padding:0 8px}
+.site-footer{background:#101722;color:#a3afbd}.footer-main{display:flex;align-items:center;justify-content:space-between;padding:34px 0;gap:24px}.footer-brand img{width:150px;filter:brightness(1.15)}.footer-note{font-size:12px;line-height:1.8}.footer-note span{font-size:10px;color:#6f7e8e}.footer-links{display:flex;gap:18px;flex-wrap:wrap;font-size:10px;font-weight:700}.footer-links a:hover{color:#52b5ff}.footer-bottom{border-top:1px solid #273341;padding:14px 0;display:flex;justify-content:space-between;font-size:9px;letter-spacing:1px;color:#69798b}.toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,20px);opacity:0;pointer-events:none;background:#101722;color:white;border:1px solid #263749;padding:12px 18px;font-size:12px;z-index:100;transition:.25s}.toast.visible{opacity:1;transform:translate(-50%,0)}.image-placeholder{width:100%;height:100%;display:grid;place-items:center;background:linear-gradient(135deg,#152335,#223a54);color:#66baff;font-family:Manrope,sans-serif;font-size:30px;font-weight:800;letter-spacing:-2px}.image-placeholder span span{color:white}.skeleton{background:linear-gradient(110deg,#e0e7ed 8%,#f2f5f8 18%,#e0e7ed 33%);background-size:200% 100%;animation:skeleton 1.4s linear infinite}@keyframes skeleton{to{background-position-x:-200%}}
+@media(max-width:1050px){.hero-grid{grid-template-columns:minmax(0,1.5fr) minmax(250px,.9fr)}.hero-feature{min-height:440px}.side-image{height:125px}.side-story h2{font-size:15px}.news-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.trending-list{grid-template-columns:repeat(3,1fr)}.trend-item:nth-child(3){border-right:0}.trend-item:nth-child(n+4){padding-top:14px;border-top:1px solid #293545}}
+@media(max-width:760px){.container{width:min(var(--max),calc(100% - 32px))}.topline-inner{height:29px;font-size:9px}.header-main{min-height:98px}.brand-logo{width:260px}.menu-toggle{display:block}.nav-wrap{display:none}.nav-wrap.nav-open{display:block}.nav-inner{flex-direction:column;align-items:stretch;padding:8px 0}.nav-link,.nav-link:first-child{padding:12px 4px;border-bottom:1px solid #edf0f3}.nav-link.active{border-bottom-color:#edf0f3;color:var(--blue)}.nav-search{padding:13px 0;text-align:left;margin:0}.search-panel{padding:14px 0}.main-content{padding-top:24px;padding-bottom:45px}.hero-grid{grid-template-columns:1fr;gap:18px}.hero-feature{min-height:410px}.hero-copy{padding:28px 22px}.hero-copy h1{font-size:31px}.hero-copy p{font-size:13px}.hero-side{display:grid;grid-template-columns:1fr 1fr;gap:14px}.side-story{display:block;padding-bottom:14px}.side-image{height:130px;margin-bottom:10px}.side-story .card-meta{margin-bottom:7px}.side-story h2{font-size:15px}.section-block{margin-top:38px}.section-heading h2{font-size:24px}.news-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.card-image{height:145px}.card-text{padding:13px}.card-text h3{font-size:15px}.card-text p{font-size:11px}.trending-block{padding:23px 18px;margin-top:40px}.trending-list{grid-template-columns:1fr 1fr;gap:12px}.trend-item{border-right:0;border-bottom:1px solid #293545;padding:0 0 12px;min-height:0}.trend-item:nth-child(3){border-right:0;padding-top:0;border-top:0}.trend-item:nth-child(n+4){padding-top:0;border-top:0}.trend-number{font-size:22px}.trend-content strong{font-size:12px}.newsletter-strip{padding:22px 18px;margin-top:38px}.newsletter-strip h2{font-size:20px}.newsletter-strip p{font-size:12px}.newsletter-mark{font-size:29px}.listing-title h1{font-size:30px}.article-content h1{font-size:34px}.article-summary{font-size:16px}.article-body{font-size:17px}.footer-main{flex-wrap:wrap;align-items:flex-start}.footer-links{width:100%;padding-top:10px}.footer-bottom{font-size:8px;gap:12px}.maintenance-card{padding:30px 20px}}
+@media(max-width:430px){.container{width:calc(100% - 26px)}.brand-logo{width:235px}.header-tools{gap:6px}.icon-button{width:38px;height:38px}.hero-feature{min-height:380px}.hero-copy h1{font-size:26px}.hero-side{grid-template-columns:1fr}.side-image{height:155px}.news-grid{gap:10px}.card-image{height:118px}.card-text{padding:10px}.card-text h3{font-size:13px;line-height:1.35}.card-text p{display:none}.card-read{font-size:8px}.section-heading h2{font-size:22px}.trending-list{grid-template-columns:1fr}.trend-item{padding-bottom:11px}.trend-item:last-child{border-bottom:0}.newsletter-strip{gap:12px}.newsletter-mark{font-size:24px}.article-content h1{font-size:29px}.article-meta{gap:10px}.footer-bottom{flex-direction:column}}
+
+
+/* Droidx visual refresh: compact wordmark, restrained palette, accessible dark mode */
+.brand{display:flex;align-items:center;gap:11px;min-width:0;flex:0 1 auto;text-decoration:none}.brand-icon{display:block;flex:0 0 46px;width:46px;height:46px;border-radius:11px;box-shadow:0 4px 12px rgba(16,32,52,.13)}.brand-wordmark{position:relative;display:flex;align-items:baseline;gap:3px;white-space:nowrap;font-family:Manrope,sans-serif;font-size:clamp(25px,2.8vw,33px);font-weight:800;letter-spacing:-1.55px;line-height:1}.brand-droidx{color:#596575}.brand-news{color:#1686e9}.news-trails{width:0;height:28px;margin-left:0;opacity:0;overflow:visible;stroke:#1686e9;stroke-width:1.7;stroke-linecap:round;fill:none;transition:width .45s ease,margin-left .45s ease,opacity .3s ease}.brand:hover .news-trails,.brand:focus-visible .news-trails{width:42px;margin-left:5px;opacity:.9}.news-trails path{stroke-dasharray:85;stroke-dashoffset:85;animation:news-trail 1.2s ease-out infinite}.news-trails path:nth-child(2){animation-delay:.12s}.news-trails path:nth-child(3){animation-delay:.24s}@keyframes news-trail{0%{stroke-dashoffset:85;opacity:.25}55%{opacity:1}100%{stroke-dashoffset:0;opacity:0}}.header-tools{gap:10px}.theme-toggle{font-size:19px;color:var(--ink)}.reading-progress{height:3px;position:fixed;top:0;left:0;right:0;z-index:1000;opacity:0;pointer-events:none;background:transparent;transition:opacity .2s}.reading-progress.active{opacity:1}.reading-progress span{display:block;height:100%;width:0;background:linear-gradient(90deg,#1785ee,#45c0ff);transition:width .08s linear}.card-source{font-size:8px;letter-spacing:.8px;font-weight:800;color:#8793a2;margin-top:7px}.article-meta{align-items:center;min-width:0;overflow-wrap:anywhere}.article-meta a{color:var(--blue);text-decoration:underline;text-underline-offset:3px}.article-content,.article-body,.article-summary{min-width:0;overflow-wrap:anywhere}.news-card,.side-story,.trend-item{min-width:0}.dark-theme{--bg:#0d141e;--paper:#151f2c;--ink:#edf3f9;--muted:#9aa9ba;--line:#2b394a;--shadow:0 8px 26px rgba(0,0,0,.24);color-scheme:dark}body.dark-theme{background:var(--bg);color:var(--ink)}.dark-theme .site-header,.dark-theme .news-card,.dark-theme .search-field-wrap,.dark-theme .empty-state{background:var(--paper);color:var(--ink);border-color:var(--line)}.dark-theme .brand-droidx{color:#c0cad6}.dark-theme .icon-button{background:#1b2939;color:#e9f1f9;border-color:#35465a}.dark-theme .nav-wrap,.dark-theme .nav-link{border-color:#2a394a}.dark-theme .nav-link,.dark-theme .nav-search,.dark-theme .text-link,.dark-theme .card-read,.dark-theme .back-link{color:#b7c4d2}.dark-theme .search-panel{background:#111b28;border-color:#2a394a}.dark-theme .search-field-wrap{border-color:#35465a}.dark-theme .search-field-wrap input{background:transparent;color:var(--ink)}.dark-theme .card-text p,.dark-theme .article-summary,.dark-theme .article-body{color:#bdc9d7}.dark-theme .newsletter-strip{background:#1b2b3d;color:#edf3f9}.dark-theme .newsletter-strip p{color:#b4c2d2}.dark-theme .newsletter-mark{color:#edf3f9}.dark-theme .side-story{border-color:var(--line)}.dark-theme .article-meta{color:#aebdcd;border-color:var(--line)}.dark-theme .section-heading{border-color:var(--line)}
+@media(max-width:760px){.header-main{min-height:84px}.brand-icon{width:41px;height:41px;flex-basis:41px;border-radius:10px}.brand-wordmark{font-size:27px;letter-spacing:-1.3px;gap:2px}.header-tools{gap:7px}.theme-toggle{width:38px;height:38px}.menu-toggle span{background:var(--ink)}}
+@media(max-width:430px){.brand{gap:8px}.brand-icon{width:36px;height:36px;flex-basis:36px;border-radius:9px}.brand-wordmark{font-size:23px;letter-spacing:-1.15px;gap:1px}.header-tools{gap:4px}.icon-button,.theme-toggle{width:35px;height:35px}.menu-toggle{padding:7px}}
+@media(max-width:360px){.header-main{min-height:74px}.brand{gap:6px}.brand-icon{width:32px;height:32px;flex-basis:32px}.brand-wordmark{font-size:20px;letter-spacing:-1.1px}.header-tools{gap:2px}.icon-button,.theme-toggle{width:32px;height:32px}.menu-toggle{padding:5px}.menu-toggle span{width:21px}}
+@media(min-width:761px) and (max-width:980px){.nav-link{padding-inline:11px;font-size:10px;letter-spacing:.7px}.nav-inner{min-height:44px}.header-main{min-height:96px}.brand-icon{width:42px;height:42px;flex-basis:42px}.brand-wordmark{font-size:27px}}
+
+/* Page transitions: short, subtle, and disabled for reduced-motion preferences. */
+#home-view,#listing-view,#article-view{animation:view-enter .32s cubic-bezier(.2,.7,.2,1) both;}
+@keyframes view-enter{from{opacity:0;transform:translateY(9px)}to{opacity:1;transform:translateY(0)}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}}
+
+
+</style>
+</head>
+<body>
+  <div class="reading-progress" id="reading-progress" aria-hidden="true"><span id="reading-progress-fill"></span></div>
+  <header class="site-header">
+    <div class="container header-main">
+      <a class="brand" href="#home" aria-label="Droidx News home">
+        <svg class="brand-icon" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+  <rect width="64" height="64" rx="13" fill="#121c2b"/>
+  <path d="M13 13h38v7H20v10h27v7H20v10h31v7H13z" fill="#35a9f5"/>
+  <path d="M32 13v41" stroke="#f5f8fc" stroke-width="3"/>
+</svg>
+        <span class="brand-wordmark"><span class="brand-droidx">Droidx</span><span class="brand-news">News</span><svg class="news-trails" viewBox="0 0 92 28" aria-hidden="true"><path d="M2 5H86"/><path d="M12 14H91"/><path d="M0 23H73"/></svg></span>
+      </a>
+      <div class="header-tools"><button class="icon-button theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode"><span id="theme-icon">☾</span></button><button class="icon-button search-toggle" aria-label="Open search" id="search-toggle"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.7"></circle><path d="m16 16 4.2 4.2"></path></svg></button><button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="main-nav"><span></span><span></span></button></div>
+    </div>
+    <nav class="nav-wrap" id="main-nav"><div class="container nav-inner"><a class="nav-link active" href="#home">HOME</a><span id="category-nav" style="display:contents"></span><button class="nav-search" id="nav-search">SEARCH <span>⌕</span></button></div></nav>
+    <div class="search-panel" id="search-panel"><div class="container search-inner"><div class="search-field-wrap"><svg viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.7"></circle><path d="m16 16 4.2 4.2"></path></svg><input id="search-input" type="search" placeholder="Search headlines, topics, or full articles…" autocomplete="off"><button id="search-clear" aria-label="Clear search">×</button></div><p class="search-hint">Search across headlines, summaries, and article text.</p></div></div>
+  </header>
+
+  <main id="app" class="container main-content">
+    <section id="home-view">
+      <div class="section-kicker"><span class="kicker-line"></span><span>THE NEWSROOM</span><span class="kicker-date" id="date-stamp"></span></div>
+      <section class="hero-grid" id="hero-grid" aria-label="Top stories"><div class="hero-placeholder skeleton"></div></section>
+      <section class="section-block" id="latest-section"><div class="section-heading"><div><span class="eyebrow">UPDATED THROUGHOUT THE DAY</span><h2>Latest News</h2></div><a class="text-link" href="#latest">VIEW ALL <span>→</span></a></div><div class="news-grid" id="latest-grid"></div></section>
+      <section class="section-block trending-block"><div class="section-heading"><div><span class="eyebrow">WHAT'S MOVING</span><h2>Trending Now</h2></div></div><div class="trending-list" id="trending-list"></div></section>
+      <section class="section-block"><div class="section-heading"><div><span class="eyebrow">SELECTED FOR YOU</span><h2>You Might Like</h2></div></div><div class="news-grid" id="recommended-grid"></div></section>
+      <section class="newsletter-strip"><div><span class="eyebrow">DROIDX NEWS</span><h2>Clarity in a fast-moving world.</h2><p>Independent reporting. Thoughtful context. Essential stories.</p></div><div class="newsletter-mark">DX<span>/</span>N</div></section>
+    </section>
+    <section id="listing-view" class="hidden"><div class="section-kicker"><span class="kicker-line"></span><span id="listing-kicker">NEWS</span></div><div class="section-heading listing-title"><h1 id="listing-title">All News</h1><span class="result-count" id="listing-count"></span></div><div class="news-grid" id="listing-grid"></div><div class="empty-state hidden" id="listing-empty">No stories found in this section.</div></section>
+    <section id="article-view" class="hidden"><div class="article-top"><a href="#home" class="back-link">← BACK TO NEWS</a><span class="article-category" id="article-category"></span></div><article class="article-content"><h1 id="article-title"></h1><p class="article-summary" id="article-summary"></p><div class="article-meta"><span id="article-author"></span><span id="article-date"></span><span id="article-readtime"></span><span id="article-updated"></span><span id="article-source"></span></div><img id="article-image" class="article-cover" alt=""/><div class="article-body" id="article-body"></div><div class="article-footer"><span>END OF ARTICLE</span><a href="#home">BACK TO TOP ↑</a></div></article><section class="section-block related-section"><div class="section-heading"><div><span class="eyebrow">CONTINUE READING</span><h2>Related Stories</h2></div></div><div class="news-grid" id="related-grid"></div></section></section>
+    <section id="maintenance-view" class="hidden maintenance-page"><div class="maintenance-card"><div class="maintenance-symbol">DX<span>/</span>N</div><div class="eyebrow">TEMPORARY SERVICE NOTICE</div><h1>We're taking a short break.</h1><p id="maintenance-message">DROIDX NEWS is temporarily unavailable while we make improvements. Please check back soon.</p><div class="maintenance-line"></div><div class="maintenance-footer">DROIDX NEWS <span>•</span> INDEPENDENT. INFORMED. AHEAD.</div></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-main"><a href="#home" class="footer-brand"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NjAgMTIwIiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkRST0lEWCBORVdTIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImJsdWUiIHgxPSIwIiB5MT0iMCIgeDI9IjEiIHkyPSIxIj48c3RvcCBzdG9wLWNvbG9yPSIjNDdjN2ZmIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMTY3N2VlIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iNSIgeT0iNSIgd2lkdGg9IjExMCIgaGVpZ2h0PSIxMTAiIHJ4PSIyMiIgZmlsbD0iIzEyMWMyYiIgc3Ryb2tlPSIjMjYzOTRmIiBzdHJva2Utd2lkdGg9IjIiLz48cGF0aCBkPSJNMjkgMjloNjJ2MTJINDF2MTZoNDR2MTJINDF2MTZoNTB2MTJIMjl6IiBmaWxsPSJ1cmwoI2JsdWUpIi8+PHBhdGggZD0iTTY0IDI5djY4IiBzdHJva2U9IiNmNWY4ZmMiIHN0cm9rZS13aWR0aD0iNSIgb3BhY2l0eT0iLjkiLz48dGV4dCB4PSIxMzciIHk9IjU1IiBmb250LWZhbWlseT0iQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9IjgwMCIgZm9udC1zaXplPSI0MiIgbGV0dGVyLXNwYWNpbmc9IjEuNSIgZmlsbD0iI2YzZjZmYiI+RFJPSURYPC90ZXh0Pjx0ZXh0IHg9IjEzNyIgeT0iOTkiIGZvbnQtZmFtaWx5PSJBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iODAwIiBmb250LXNpemU9IjM5IiBsZXR0ZXItc3BhY2luZz0iMiIgZmlsbD0idXJsKCNibHVlKSI+TkVXUzwvdGV4dD48L3N2Zz4K" alt="DROIDX News"></a><div class="footer-note">Independent. Professional. Global.<br><span>© <span id="year"></span> DROIDX NEWS. All rights reserved.</span></div><div class="footer-links" id="footer-category-links"></div></div><div class="container footer-bottom"><span>NEWS • ANALYSIS • PERSPECTIVE</span><span id="last-updated">Waiting for news feed…</span></div></footer>
+  <div id="toast" class="toast" role="status"></div>
+  
+<script>
+/* DROIDX NEWS — CDN configuration. Content itself is never hardcoded here. */
+window.DROIDX_CONFIG = {
+  MANIFEST_URL: 'https://cdn.jsdelivr.net/gh/droidxwork-maker/Data@main/manifest.js',
+  CACHE_DB: 'droidx-news-cache',
+  CACHE_STORE: 'content',
+  CACHE_KEY: 'latest-snapshot',
+  REQUEST_TIMEOUT_MS: 15000
+};
+</script>
+
+<script>
+/* DROIDX DataManager: CDN loader, schema checks, stale-while-revalidate cache and state events. */
+(() => {
+  'use strict';
+  const cfg = window.DROIDX_CONFIG || {};
+  const root = 'https://cdn.jsdelivr.net/gh/droidxwork-maker/Data@main/';
+  const keys = ['news', 'categories', 'settings', 'maintenance'];
+  let snapshot = null;
+  let refreshing = null;
+  const listeners = new Set();
+
+  function emit() { listeners.forEach(fn => { try { fn(getState()); } catch (e) { console.error('[DROIDX] subscriber:', e); } }); }
+  function getState() { return snapshot ? structuredCloneSafe(snapshot) : null; }
+  function structuredCloneSafe(v) { return JSON.parse(JSON.stringify(v)); }
+  function subscribe(fn) { if (typeof fn !== 'function') return () => {}; listeners.add(fn); return () => listeners.delete(fn); }
+  function openDB() {
+    return new Promise((resolve, reject) => {
+      if (!('indexedDB' in window)) return reject(new Error('IndexedDB unavailable'));
+      const req = indexedDB.open(cfg.CACHE_DB || 'droidx-news-cache', 1);
+      req.onupgradeneeded = () => { if (!req.result.objectStoreNames.contains(cfg.CACHE_STORE || 'content')) req.result.createObjectStore(cfg.CACHE_STORE || 'content'); };
+      req.onsuccess = () => resolve(req.result);
+      req.onerror = () => reject(req.error || new Error('IndexedDB open failed'));
+    });
+  }
+  async function cacheGet() {
+    try {
+      const db = await openDB();
+      const value = await new Promise((resolve, reject) => {
+        const tx = db.transaction(cfg.CACHE_STORE || 'content', 'readonly');
+        const req = tx.objectStore(cfg.CACHE_STORE || 'content').get(cfg.CACHE_KEY || 'latest-snapshot');
+        req.onsuccess = () => resolve(req.result || null); req.onerror = () => reject(req.error);
+      }); db.close(); if (value) return value;
+    } catch (_) {}
+    try { return JSON.parse(localStorage.getItem('droidx-news-snapshot') || 'null'); } catch (_) { return null; }
+  }
+  async function cachePut(value) {
+    let saved = false;
+    try {
+      const db = await openDB();
+      await new Promise((resolve, reject) => {
+        const tx = db.transaction(cfg.CACHE_STORE || 'content', 'readwrite');
+        tx.objectStore(cfg.CACHE_STORE || 'content').put(value, cfg.CACHE_KEY || 'latest-snapshot');
+        tx.oncomplete = resolve; tx.onerror = () => reject(tx.error); tx.onabort = () => reject(tx.error);
+      }); db.close(); saved = true;
+    } catch (_) {}
+    try { localStorage.setItem('droidx-news-snapshot', JSON.stringify(value)); saved = true; } catch (_) {}
+    return saved;
+  }
+  async function fetchScript(url, expectedKey) {
+    const scriptUrl = new URL(url);
+    scriptUrl.searchParams.set('_droidx', Date.now() + '-' + Math.random().toString(36).slice(2));
+    const previous = window.DROIDX_CONTENT;
+    const staging = {};
+    window.DROIDX_CONTENT = staging;
+    try {
+      await new Promise((resolve, reject) => {
+        const el = document.createElement('script');
+        const timeout = setTimeout(() => { el.remove(); reject(new Error('Script timeout: ' + url)); }, Number(cfg.REQUEST_TIMEOUT_MS) || 15000);
+        el.src = scriptUrl.href; el.async = false;
+        el.onload = () => { clearTimeout(timeout); el.remove(); resolve(); };
+        el.onerror = () => { clearTimeout(timeout); el.remove(); reject(new Error('Could not load: ' + url)); };
+        document.head.appendChild(el);
+      });
+      if (!Object.prototype.hasOwnProperty.call(staging, expectedKey)) throw new Error('Missing DROIDX_CONTENT.' + expectedKey);
+      return staging[expectedKey];
+    } finally { window.DROIDX_CONTENT = previous || {}; }
+  }
+  function validateManifest(m) {
+    if (!m || !Array.isArray(m.files)) throw new Error('Invalid manifest: files[] is required');
+    const found = new Map(m.files.filter(x => x && typeof x.id === 'string' && typeof x.path === 'string').map(x => [x.id, x]));
+    for (const id of ['news', 'categories', 'settings']) if (!found.has(id)) throw new Error('Manifest is missing required file: ' + id);
+    return found;
+  }
+  async function loadFile(entry, id) {
+    const path = entry.path.replace(/^\/+/, '');
+    try { return await fetchScript(new URL(path, root).href, id); }
+    catch (firstError) {
+      // Older manifest versions may still contain data/*.js while repository files are at its root.
+      const basename = path.split('/').pop();
+      if (basename === path) throw firstError;
+      return fetchScript(new URL(basename, root).href, id);
+    }
+  }
+  function validatePayload(data) {
+    if (!data.news || !Array.isArray(data.news.articles)) throw new Error('News payload must contain articles[]');
+    if (!data.news.articles.every(a => a && a.id && a.title)) throw new Error('News payload contains an invalid article');
+    if (!data.categories || !Array.isArray(data.categories.items)) throw new Error('Categories payload must contain items[]');
+    if (!data.settings || typeof data.settings !== 'object') throw new Error('Settings payload is missing');
+    if (!data.maintenance || typeof data.maintenance.enabled !== 'boolean') data.maintenance = { enabled: false, message: '' };
+    return data;
+  }
+  async function restoreCache() {
+    if (snapshot) return getState();
+    const cached = await cacheGet();
+    if (cached && cached.data && cached.data.news && Array.isArray(cached.data.news.articles)) {
+      snapshot = cached.data; emit(); return getState();
+    }
+    return null;
+  }
+  async function refresh() {
+    if (refreshing) return refreshing;
+    refreshing = (async () => {
+      const manifest = await fetchScript(cfg.MANIFEST_URL || root + 'manifest.js', 'manifest');
+      const entries = validateManifest(manifest);
+      const data = {};
+      for (const id of keys) {
+        const entry = entries.get(id);
+        if (!entry) { if (id === 'maintenance') continue; throw new Error('Missing manifest entry: ' + id); }
+        try { data[id] = await loadFile(entry, id); }
+        catch (err) { if (entry.required !== false) throw err; }
+      }
+      validatePayload(data);
+      const next = { data, meta: { contentVersion: manifest.content_version || '', lastUpdated: manifest.last_updated || '', fetchedAt: Date.now() } };
+      snapshot = data;
+      await cachePut(next);
+      emit();
+      return getState();
+    })().finally(() => { refreshing = null; });
+    return refreshing;
+  }
+  window.DroidxDataManager = Object.freeze({
+    getState, subscribe, restoreCache, refresh,
+    getNews: () => snapshot && structuredCloneSafe(snapshot.news),
+    getCategories: () => snapshot && structuredCloneSafe(snapshot.categories),
+    getSettings: () => snapshot && structuredCloneSafe(snapshot.settings),
+    getMaintenance: () => snapshot && structuredCloneSafe(snapshot.maintenance)
+  });
+})();
+</script>
+
+<script>
+(() => {
+  'use strict';
+  const cfg = window.DROIDX_CONFIG || {};
+  const state = { articles: [], categories: [], settings: {}, maintenance: false, maintenanceMessage: '', lastUpdate: null, search: '', view: 'home' };
+  const $ = (id) => document.getElementById(id);
+  const els = {
+    home: $('home-view'), listing: $('listing-view'), article: $('article-view'), maintenance: $('maintenance-view'),
+    hero: $('hero-grid'), latest: $('latest-grid'), trending: $('trending-list'), recommended: $('recommended-grid'),
+    listingGrid: $('listing-grid'), listingTitle: $('listing-title'), listingKicker: $('listing-kicker'), listingCount: $('listing-count'), listingEmpty: $('listing-empty'),
+    articleTitle: $('article-title'), articleSummary: $('article-summary'), articleCategory: $('article-category'), articleAuthor: $('article-author'), articleDate: $('article-date'), articleRead: $('article-readtime'), articleImage: $('article-image'), articleBody: $('article-body'), related: $('related-grid'), maintenanceMsg: $('maintenance-message'), searchPanel: $('search-panel'), searchInput: $('search-input'), toast: $('toast')
+  };
+  let toastTimer;
+
+  function escapeHTML(value) {
+    return String(value ?? '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+  }
+  function normalizeArticles(payload) {
+    const list = Array.isArray(payload) ? payload : (payload && Array.isArray(payload.articles) ? payload.articles : []);
+    return list.filter(x => x && x.id && x.title).map(x => ({
+      id: String(x.id), title: String(x.title), summary: String(x.summary || x.description || ''), content: String(x.content || x.body || ''),
+      image: String(x.image || x.cover || ''), category: String(x.category || 'world').toLowerCase(), author: String(x.author || 'DROIDX News Desk'),
+      published_at: x.published_at || x.publishedAt || x.date || '', updated_at: x.updated_at || x.updatedAt || x.last_updated || x.modified_at || '',
+      source_name: String(x.source_name || x.source || x.publisher || x.site_name || ''), source_url: String(x.source_url || x.sourceUrl || x.canonical_url || x.url || ''),
+      featured: Boolean(x.featured), trending_score: Number(x.trending_score || x.trending || 0), read_minutes: Number(x.read_minutes || 0), url: String(x.url || '')
+    }));
+  }
+  function renderCategories() {
+    const categories = state.categories || [];
+    const nav = $('category-nav');
+    const footer = $('footer-category-links');
+    if (!nav || !footer) return;
+    const valid = categories.filter(c => c && c.id && (c.label || c.name));
+    nav.innerHTML = valid.map(c => `<a class="nav-link" href="#category/${encodeURIComponent(String(c.id))}">${escapeHTML(c.label || c.name)}</a>`).join('');
+    footer.innerHTML = valid.map(c => `<a href="#category/${encodeURIComponent(String(c.id))}">${escapeHTML(c.name || c.label)}</a>`).join('');
+  }
+  function applyDataState(data) {
+    if (!data) return;
+    const articles = normalizeArticles(data.news);
+    if (!articles.length && state.articles.length) return;
+    state.articles = articles;
+    state.categories = Array.isArray(data.categories && data.categories.items) ? data.categories.items : [];
+    renderCategories();
+    state.settings = data.settings || {};
+    state.maintenance = !!(data.maintenance && data.maintenance.enabled === true);
+    state.maintenanceMessage = data.maintenance && typeof data.maintenance.message === 'string' && data.maintenance.message.trim()
+      ? data.maintenance.message : 'DROIDX NEWS is temporarily unavailable while we make improvements. Please check back soon.';
+    state.lastUpdate = new Date();
+    renderHome();
+    applyMaintenance();
+    if (!state.maintenance) route();
+    updateFooter();
+  }
+  async function fetchMaintenance() {
+    const data = window.DroidxDataManager.getState();
+    if (data) {
+      state.maintenance = !!(data.maintenance && data.maintenance.enabled === true);
+      state.maintenanceMessage = data.maintenance && data.maintenance.message || '';
+      applyMaintenance();
+    }
+  }
+  async function fetchNews(showToast = false) {
+    try {
+      const data = await window.DroidxDataManager.refresh();
+      applyDataState(data);
+      if (showToast) toast('News feed refreshed');
+      return true;
+    } catch (err) {
+      if (showToast) toast('Could not refresh. Showing the last saved version.');
+      console.warn('[DROIDX NEWS] CDN update:', err.message);
+      return false;
+    }
+  }
+  function dateValue(date) { const d = new Date(date); return Number.isNaN(d.getTime()) ? 0 : d.getTime(); }
+  function formatDate(date, short = false) {
+    const d = new Date(date);
+    if (!date || Number.isNaN(d.getTime())) return 'DATE UNAVAILABLE';
+    return new Intl.DateTimeFormat('en', short ? { month: 'short', day: 'numeric' } : { month: 'long', day: 'numeric', year: 'numeric' }).format(d).toUpperCase();
+  }
+  function formatDateTime(value) { const d=new Date(value); if(!value || Number.isNaN(d.getTime())) return 'UNAVAILABLE'; return new Intl.DateTimeFormat('en', {year:'numeric',month:'short',day:'numeric',hour:'2-digit',minute:'2-digit',timeZoneName:'short'}).format(d); }
+  function slugCategory(s) { return String(s || 'world').replace(/[^a-z0-9-]/gi, '').toLowerCase(); }
+  function imageOrPlaceholder(image, alt) {
+    if (!image) return `<div class="image-placeholder" role="img" aria-label="${escapeHTML(alt)}"><span>DX<span>/</span>N</span></div>`;
+    return `<img loading="lazy" src="${escapeHTML(image)}" alt="${escapeHTML(alt)}" onerror="this.onerror=null;this.style.opacity=0">`;
+  }
+  function articleCard(article, variant = '') {
+    return `<article class="news-card ${variant}"><a class="card-image" href="#article/${encodeURIComponent(article.id)}">${imageOrPlaceholder(article.image, article.title)}<span class="image-category">${escapeHTML(article.category)}</span></a><div class="card-text"><div class="card-meta">${escapeHTML(formatDate(article.published_at, true))} <span>•</span> ${escapeHTML(article.category)}</div>${article.source_name ? `<div class="card-source">SOURCE: ${escapeHTML(article.source_name)}</div>` : ''}<h3><a href="#article/${encodeURIComponent(article.id)}">${escapeHTML(article.title)}</a></h3><p>${escapeHTML(article.summary)}</p><a class="card-read" href="#article/${encodeURIComponent(article.id)}">READ STORY <span>↗</span></a></div></article>`;
+  }
+  function renderHome() {
+    const sorted = [...state.articles].sort((a,b) => dateValue(b.published_at) - dateValue(a.published_at));
+    const featured = sorted.find(a => a.featured) || sorted[0];
+    const rest = sorted.filter(a => a.id !== (featured && featured.id));
+    if (featured) {
+      const side = rest.slice(0, 2);
+      els.hero.innerHTML = `<article class="hero-feature"><a class="hero-image" href="#article/${encodeURIComponent(featured.id)}">${imageOrPlaceholder(featured.image, featured.title)}<span class="hero-image-shade"></span><span class="hero-category">${escapeHTML(featured.category)}</span></a><div class="hero-copy"><div class="card-meta">TOP STORY <span>•</span> ${escapeHTML(formatDate(featured.published_at, true))}</div><h1><a href="#article/${encodeURIComponent(featured.id)}">${escapeHTML(featured.title)}</a></h1><p>${escapeHTML(featured.summary)}</p><a class="primary-link" href="#article/${encodeURIComponent(featured.id)}">READ FULL STORY <span>→</span></a></div></article><div class="hero-side">${side.map((a,i)=>`<article class="side-story"><a class="side-image" href="#article/${encodeURIComponent(a.id)}">${imageOrPlaceholder(a.image,a.title)}</a><div class="card-meta">${escapeHTML(a.category)} <span>•</span> ${escapeHTML(formatDate(a.published_at,true))}</div><h2><a href="#article/${encodeURIComponent(a.id)}">${escapeHTML(a.title)}</a></h2></article>`).join('')}</div>`;
+    } else els.hero.innerHTML = '<div class="empty-state">No stories are available right now.</div>';
+    els.latest.innerHTML = rest.slice(0, 4).map(a => articleCard(a)).join('');
+    const trending = [...state.articles].sort((a,b) => b.trending_score - a.trending_score || dateValue(b.published_at) - dateValue(a.published_at)).slice(0,5);
+    els.trending.innerHTML = trending.map((a,i)=>`<a class="trend-item" href="#article/${encodeURIComponent(a.id)}"><span class="trend-number">${String(i+1).padStart(2,'0')}</span><span class="trend-content"><span class="card-meta">${escapeHTML(a.category)} <span>•</span> ${escapeHTML(formatDate(a.published_at,true))}</span><strong>${escapeHTML(a.title)}</strong></span><span class="trend-arrow">↗</span></a>`).join('');
+    const recs = rest.slice(4,8).length ? rest.slice(4,8) : rest.slice(0,4);
+    els.recommended.innerHTML = recs.map(a => articleCard(a)).join('');
+    $('date-stamp').textContent = new Intl.DateTimeFormat('en', { weekday:'long', month:'long', day:'numeric', year:'numeric' }).format(new Date()).toUpperCase();
+  }
+  function showView(which) {
+    if (state.maintenance) return;
+    els.home.classList.toggle('hidden', which !== 'home'); els.listing.classList.toggle('hidden', which !== 'listing'); els.article.classList.toggle('hidden', which !== 'article');
+    state.view = which; window.scrollTo({ top: 0, behavior: 'instant' }); updateReadingProgress();
+  }
+  function route() {
+    if (state.maintenance) { applyMaintenance(); return; }
+    const hash = decodeURIComponent(location.hash || '#home');
+    if (hash.startsWith('#article/')) { renderArticle(hash.slice(9)); return; }
+    if (hash.startsWith('#category/')) { renderListing({ category: slugCategory(hash.slice(10)) }); return; }
+    if (hash === '#latest') { renderListing({ latest: true }); return; }
+    if (hash.startsWith('#search')) { const query = new URLSearchParams(hash.includes('?') ? hash.slice(hash.indexOf('?')+1) : '').get('q') || ''; renderListing({ query }); return; }
+    showView('home');
+  }
+  function renderListing(opts = {}) {
+    let list = [...state.articles].sort((a,b) => dateValue(b.published_at) - dateValue(a.published_at));
+    let title = 'All News', kicker = 'NEWS';
+    if (opts.category) { list = list.filter(a => slugCategory(a.category) === opts.category); title = opts.category.replace(/-/g,' ').replace(/\b\w/g,c=>c.toUpperCase()); kicker = 'SECTION'; }
+    if (opts.query) { const q = opts.query.toLowerCase(); list = list.filter(a => `${a.title} ${a.summary} ${a.content} ${a.category}`.toLowerCase().includes(q)); title = `Search: “${opts.query}”`; kicker = 'SEARCH RESULTS'; }
+    els.listingTitle.textContent = title; els.listingKicker.textContent = kicker; els.listingCount.textContent = `${list.length} ${list.length === 1 ? 'STORY' : 'STORIES'}`;
+    els.listingGrid.innerHTML = list.map(a => articleCard(a)).join(''); els.listingEmpty.classList.toggle('hidden', list.length > 0);
+    showView('listing');
+  }
+  function renderArticle(id) {
+    const article = state.articles.find(a => a.id === id);
+    if (!article) { renderListing({ latest:true }); toast('Story not found in the current feed'); return; }
+    els.articleTitle.textContent = article.title; els.articleSummary.textContent = article.summary; els.articleCategory.textContent = article.category.toUpperCase();
+    els.articleAuthor.textContent = `BY ${article.author.toUpperCase()}`; els.articleDate.textContent = article.published_at ? `PUBLISHED ${formatDateTime(article.published_at)}` : 'PUBLISH TIME UNAVAILABLE'; els.articleRead.textContent = `${article.read_minutes || Math.max(1, Math.ceil((article.content || '').split(/\s+/).length / 220))} MIN READ`;
+    const updatedEl = $('article-updated'); updatedEl.textContent = article.updated_at ? `UPDATED ${formatDateTime(article.updated_at)}` : 'NO UPDATE RECORDED';
+    const sourceEl = $('article-source'); sourceEl.replaceChildren();
+    if (article.source_name) { sourceEl.textContent = `SOURCE: ${article.source_name}`; if (article.source_url && /^https?:\/\//i.test(article.source_url)) { const a=document.createElement('a'); a.href=article.source_url; a.target='_blank'; a.rel='noopener noreferrer'; a.textContent=' OPEN ORIGINAL ↗'; sourceEl.appendChild(a); } } else sourceEl.textContent='SOURCE NOT PROVIDED';
+    els.articleImage.src = article.image || ''; els.articleImage.alt = article.title; els.articleImage.classList.toggle('hidden', !article.image);
+    els.articleBody.innerHTML = (article.content || article.summary || '').split(/\n\s*\n/).map(p => `<p>${escapeHTML(p).replace(/\n/g,'<br>')}</p>`).join('');
+    const related = state.articles.filter(a => a.id !== article.id && a.category === article.category).slice(0,3);
+    const filler = state.articles.filter(a => a.id !== article.id && !related.includes(a)).slice(0,3-related.length);
+    els.related.innerHTML = [...related,...filler].map(a=>articleCard(a)).join(''); showView('article');
+  }
+  function updateFooter() {
+    $('last-updated').textContent = state.lastUpdate ? `FEED UPDATED ${state.lastUpdate.toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'})}` : 'NEWS FEED';
+    $('year').textContent = new Date().getFullYear();
+  }
+  function toast(message) { els.toast.textContent = message; els.toast.classList.add('visible'); clearTimeout(toastTimer); toastTimer = setTimeout(()=>els.toast.classList.remove('visible'),2500); }
+  function performSearch(value) { const q = value.trim(); if (!q) { location.hash = '#home'; return; } location.hash = '#search?q=' + encodeURIComponent(q); els.searchPanel.classList.add('open'); }
+  // Theme preference is kept locally on this device.
+  const themeButton = $('theme-toggle');
+  function applyTheme(dark) { document.body.classList.toggle('dark-theme', dark); $('theme-icon').textContent = dark ? '☀' : '☾'; themeButton.setAttribute('aria-label', dark ? 'Switch to light mode' : 'Switch to dark mode'); }
+  let darkMode = false; try { darkMode = localStorage.getItem('droidx-theme') === 'dark'; } catch (_) {}
+  applyTheme(darkMode);
+  themeButton.addEventListener('click', () => { darkMode = !document.body.classList.contains('dark-theme'); applyTheme(darkMode); try { localStorage.setItem('droidx-theme', darkMode ? 'dark' : 'light'); } catch (_) {} });
+  function updateReadingProgress() { const bar=$('reading-progress'); const fill=$('reading-progress-fill'); const active=state.view==='article'; bar.classList.toggle('active', active); if(!active){fill.style.width='0%';return;} const max=document.documentElement.scrollHeight-window.innerHeight; const pct=max>0 ? Math.min(100,Math.max(0,(window.scrollY/max)*100)) : 0; fill.style.width=pct+'%'; }
+  window.addEventListener('scroll', updateReadingProgress, {passive:true});
+  $('search-toggle').addEventListener('click', ()=> { els.searchPanel.classList.toggle('open'); if (els.searchPanel.classList.contains('open')) els.searchInput.focus(); });
+  $('nav-search').addEventListener('click', ()=> { els.searchPanel.classList.add('open'); els.searchInput.focus(); });
+  $('search-clear').addEventListener('click', ()=> { els.searchInput.value=''; els.searchInput.focus(); });
+  els.searchInput.addEventListener('keydown', e => { if(e.key === 'Enter') performSearch(els.searchInput.value); if(e.key === 'Escape') els.searchPanel.classList.remove('open'); });
+  $('menu-toggle').addEventListener('click', ()=> { const opened=$('main-nav').classList.toggle('nav-open'); $('menu-toggle').classList.toggle('open', opened); $('menu-toggle').setAttribute('aria-expanded', String(opened)); });
+  $('main-nav').addEventListener('click', event => { const link = event.target.closest('.nav-link'); if (!link) return; $('main-nav').classList.remove('nav-open'); $('menu-toggle').classList.remove('open'); $('menu-toggle').setAttribute('aria-expanded','false'); document.querySelectorAll('.nav-link').forEach(a=>a.classList.remove('active')); link.classList.add('active'); });
+  window.addEventListener('hashchange', route);
+  $('year').textContent = new Date().getFullYear();
+  // Render the last saved snapshot immediately, then refresh from CDN.
+  window.DroidxDataManager.subscribe(applyDataState);
+  window.DroidxDataManager.restoreCache().then(cached => {
+    if (cached) applyDataState(cached);
+    return fetchNews(false);
+  }).then(() => updateFooter());
+  let pollTimer = null;
+  function schedulePolling() {
+    const configured = Number(state.settings && state.settings.poll_interval_ms) || 60000;
+    const interval = Math.max(15000, Math.min(configured, 3600000));
+    if (pollTimer) clearInterval(pollTimer);
+    pollTimer = setInterval(() => fetchNews(false), interval);
+  }
+  window.DroidxDataManager.subscribe(() => schedulePolling());
+  schedulePolling();
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'visible') fetchNews(false);
+  });
+  window.addEventListener('online', () => fetchNews(false));
+})();
+
+</script>
+
+<!-- Droidx browser deterrence layer.
+     This is a usability-level deterrent only; it is not a security boundary. -->
+<style>
+@media print {
+  body { display: none !important; }
+}
+</style>
+<script>
+(() => {
+  'use strict';
+
+  // Block common browser shortcuts that open source/devtools or invoke save/print.
+  // Browser/OS controls and alternative methods can bypass these handlers.
+  document.addEventListener('keydown', (event) => {
+    const key = String(event.key || '').toLowerCase();
+    const ctrlOrMeta = event.ctrlKey || event.metaKey;
+    const blocked =
+      key === 'f12' ||
+      (ctrlOrMeta && key === 'u') ||
+      (ctrlOrMeta && key === 's') ||
+      (ctrlOrMeta && key === 'p') ||
+      (ctrlOrMeta && event.shiftKey && ['i', 'j', 'c', 'k'].includes(key)) ||
+      (event.metaKey && event.altKey && ['i', 'j', 'c'].includes(key));
+
+    if (blocked) {
+      event.preventDefault();
+      event.stopPropagation();
+    }
+  }, true);
+
+  // Suppress the page's context menu. This does not disable browser menus
+  // or prevent inspection through other browser/OS mechanisms.
+  document.addEventListener('contextmenu', (event) => {
+    event.preventDefault();
+  }, true);
+})();
+</script>
+
+</body>
+</html>
